@@ -13,7 +13,7 @@ function init() {
   let height = window.innerHeight;
   
   // Socket IO
-  let socket = io();
+  let socket = io('https://draw-app-jo.glitch.me');
 
   // Set the canvas width and height to the browser size
   canvas.width = width;
